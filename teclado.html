@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teclado.css">
+    <title>Teclas</title>
+</head>
+<body>
+    <div class="tecladoP">
+        <div class="linha1">
+            <button class="esc"><b>ESC</b></button>
+        </div>
+        <div class="linha2">
+            <button class="NumLet1"><b>~<br><br>'</b></button>
+            <button class="NumLet1"><b>!<br><br>1</b></button>
+            <button class="NumLet1"><b>@<br><br>2</b></button>
+            <button class="NumLet1"><b>#<br><br>3</b></button>
+            <button class="NumLet1"><b>$<br><br>4</b></button>
+            <button class="NumLet1"><b>%<br><br>5</b></button>
+            <button class="NumLet1"><b>¨<br><br>6</b></button>
+            <button class="NumLet1"><b>&<br><br>7</b></button>
+            <button class="NumLet1"><b>*<br><br>8</b></button>
+            <button class="NumLet1"><b>(<br><br>9</b></button>
+            <button class="NumLet1"><b>)<br><br>0</b></button>
+            <button class="NumLet1"><b>-<br>_</b></button>
+            <button class="NumLet1"><b>+<br>=</b></button>
+            <button class="back"><b>backspace</b></button>
+        </div>
+        <div class="linha3">
+            <button class="back"><b>TAB</b></button>
+            <button class="NumLet1"><b>q</b></button>
+            <button class="NumLet1"><b>w</b></button>
+            <button class="NumLet1"><b>e</b></button>
+            <button class="NumLet1"><b>r</b></button>
+            <button class="NumLet1"><b>t</b></button>
+            <button class="NumLet1"><b>y</b></button>
+            <button class="NumLet1"><b>u</b></button>
+            <button class="NumLet1"><b>i</b></button>
+            <button class="NumLet1"><b>o</b></button>
+            <button class="NumLet1"><b>p</b></button>
+            <button class="NumLet1"><b>{<br>[</b></button>
+            <button class="NumLet1"><b>}<br>]</b></button>
+            <button class="NumLet1"><b>|<br>\</b></button>
+        </div>
+        <div class="linha4">
+            <button class="enter"><b>CapsLock</b></button>
+            <button class="NumLet2"><b>a</b></button>
+            <button class="NumLet2"><b>s</b></button>
+            <button class="NumLet2"><b>d</b></button>
+            <button class="NumLet2"><b>f</b></button>
+            <button class="NumLet2"><b>g</b></button>
+            <button class="NumLet2"><b>h</b></button>
+            <button class="NumLet2"><b>j</b></button>
+            <button class="NumLet2"><b>k</b></button>
+            <button class="NumLet2"><b>l</b></button>
+            <button class="NumLet2"><b>ç</b></button>
+            <button class="NumLet2"><b>{<br>[</b></button>
+            <button class="NumLet2"><b>}<br>]</b></button>
+            <button class="enter"><b>enter</b></button>
+        </div>
+        <div class="linha5">
+            <button class="shift"><b>SHIFT ⇧</b></button>
+            <button class="NumLet3"><b>q</b></button>
+            <button class="NumLet3"><b>w</b></button>
+            <button class="NumLet3"><b>e</b></button>
+            <button class="NumLet3"><b>r</b></button>
+            <button class="NumLet3"><b>t</b></button>
+            <button class="NumLet3"><b>y</b></button>
+            <button class="NumLet3"><b>u</b></button>
+            <button class="NumLet3"><b>i</b></button>
+            <button class="NumLet3"><b>o</b></button>
+            <button class="NumLet3"><b>p</b></button>
+            <button class="shift"><b>SHIFT ⇧</b></button>
+        </div>
+        <div class="linha6">
+            <button class="shift"><b>CTRL</b></button>
+            <button class="shift"><b>ALT</b></button>
+            <button class="espaco"><b></b></button>
+            <button class="alt"><b>ALT</b></button>
+            <button class="alt"><b>CTRL</b></button>
+            <div class="setas">
+                <div class="setas1">
+                    <div class="empurra"></div>
+                    <button class="setinha2">🠔</button>
+                </div>
+                <div class="setas2">
+                    <button class="setinha">🠕</button>
+                    <button class="setinha">🠗</button>
+                </div>
+                <div class="setas3">
+                    <div class="empurra"></div>
+                    <button class="setinha2">🠖</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+<script>
+    
+document.onkeydown = Pega_Tecla;
+
+function Pega_Tecla(e) 
+{	
+    e = e || window.event;
+
+    tecla = e.keyCode;
+    console.log(tecla); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
+
+}
+</script>
+
+</html>

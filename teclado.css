@@ -1,0 +1,254 @@
+body
+{
+justify-content: center;
+justify-self: center;
+align-items: center;
+align-content: center;
+display: flex;
+margin-top: 70px;
+
+}
+.tecladoP
+{
+    width: 90%;
+    height: 85vh;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 7px;
+    background-color: transparent;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.linha1
+{
+    justify-content: space-between;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    display: flex;   
+    flex-direction: row;
+    background-color: rgb(230, 177, 233);
+    width: 100%;
+    height: 10vh;
+}
+.linha2
+{
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    display: flex;   
+    flex-direction: row;
+    background-color: rgb(108, 116, 93);
+    width: 100%;
+    height: 15vh;
+}
+.linha3
+{
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    display: flex;   
+    flex-direction: row;
+    background-color: rgb(90, 22, 93);
+    width: 100%;
+    height: 15vh;
+}
+.linha4
+{
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    display: flex;   
+    flex-direction: row;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(77, 211, 41);
+}
+.linha5
+{
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    display: flex;   
+    flex-direction: row;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(17, 98, 168);
+}
+.linha6
+{
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    display: flex;   
+    flex-direction: row;
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(82, 110, 85);
+}
+.setas
+{
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    display: flex;   
+    flex-direction: row;
+    width: 35%;
+    height: 20vh;
+    margin-top: -32px;
+}
+.setas1
+{
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    display: flex;   
+    flex-direction: column;
+    width: 25%;
+    height: 15vh;
+}
+.setas2
+{
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    display: flex;   
+    flex-direction: column;
+    width: 25%;
+    height: 15vh; 
+}
+.setas3
+{
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    display: flex;   
+    flex-direction: column;
+    width: 25%;
+    height: 15vh;
+}
+.setinha
+{
+    width: 80px;
+    height: 45px;
+    border-style: solid;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.setinha2
+{
+    width: 80px;
+    height: 45px;
+    border-style: solid;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.empurra
+{
+    width: 100%;
+    height: 7.5vh;
+}
+.esc
+{
+    width: 95px;
+    height: 55px;
+    margin-left: 5px;
+    font-family: "Audiowide", sans-serif;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.NumLet1
+{
+    width: 85px;
+    height: 70px;
+    margin-left:4px;
+    font-size: 15px;
+    border-radius: 6px;
+    border-color: black;
+    border-style: solid;
+}
+.NumLet2
+{
+    width: 76px;
+    height: 60px;
+    margin-left:2.5px;
+    font-size: 15px;
+    border-radius: 6px;
+    border-color: black;
+    border-style: solid;
+}
+.NumLet3
+{
+    width: 85px;
+    height: 60px;
+    margin-left:2.5px;
+    font-size: 15px;
+    border-radius: 6px;
+    border-color: black;
+    border-style: solid;
+}
+.back
+{
+    width: 110px;
+    height: 65px;
+    margin-left: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.enter
+{
+    width: 105px;
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+}
+.shift
+{
+    width: 110px;
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 18px;
+    border-color: black;
+    border-style: solid;
+}
+.espaco
+{
+    width: 40%;
+    height: 80px;
+    margin-left: 5px;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+}
+.alt
+{
+    width: 70px;
+    height: 80px;
+    margin-left: 5px;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+}
